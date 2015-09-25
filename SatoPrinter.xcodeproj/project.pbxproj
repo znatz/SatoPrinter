@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		67F7C5A41BB5056500F5BE15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7C5A31BB5056500F5BE15 /* main.m */; };
 		67F7C5A71BB5056500F5BE15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7C5A61BB5056500F5BE15 /* AppDelegate.m */; };
-		67F7C5AA1BB5056500F5BE15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7C5A91BB5056500F5BE15 /* ViewController.m */; };
+		67F7C5AA1BB5056500F5BE15 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7C5A91BB5056500F5BE15 /* Home.m */; };
 		67F7C5AD1BB5056500F5BE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7C5AB1BB5056500F5BE15 /* Main.storyboard */; };
 		67F7C5B01BB5056500F5BE15 /* SatoPrinter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67F7C5AE1BB5056500F5BE15 /* SatoPrinter.xcdatamodeld */; };
 		67F7C5B21BB5056500F5BE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F7C5B11BB5056500F5BE15 /* Assets.xcassets */; };
-		67F7C5B51BB5056500F5BE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7C5B31BB5056500F5BE15 /* LaunchScreen.storyboard */; };
 		67F7C5C01BB5056500F5BE15 /* SatoPrinterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7C5BF1BB5056500F5BE15 /* SatoPrinterUITests.m */; };
+		67F7C5CB1BB505B800F5BE15 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F7C5CA1BB505B800F5BE15 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +32,16 @@
 		67F7C5A31BB5056500F5BE15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67F7C5A51BB5056500F5BE15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67F7C5A61BB5056500F5BE15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		67F7C5A81BB5056500F5BE15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		67F7C5A91BB5056500F5BE15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67F7C5A81BB5056500F5BE15 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		67F7C5A91BB5056500F5BE15 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		67F7C5AC1BB5056500F5BE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67F7C5AF1BB5056500F5BE15 /* SatoPrinter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SatoPrinter.xcdatamodel; sourceTree = "<group>"; };
 		67F7C5B11BB5056500F5BE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		67F7C5B41BB5056500F5BE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67F7C5B61BB5056500F5BE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F7C5BB1BB5056500F5BE15 /* SatoPrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatoPrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F7C5BF1BB5056500F5BE15 /* SatoPrinterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatoPrinterUITests.m; sourceTree = "<group>"; };
 		67F7C5C11BB5056500F5BE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F7C5CA1BB505B800F5BE15 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F7C5CB1BB505B800F5BE15 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +66,7 @@
 		67F7C5961BB5056400F5BE15 = {
 			isa = PBXGroup;
 			children = (
+				67F7C5CA1BB505B800F5BE15 /* ExternalAccessory.framework */,
 				67F7C5A11BB5056500F5BE15 /* SatoPrinter */,
 				67F7C5BE1BB5056500F5BE15 /* SatoPrinterUITests */,
 				67F7C5A01BB5056500F5BE15 /* Products */,
@@ -85,11 +87,10 @@
 			children = (
 				67F7C5A51BB5056500F5BE15 /* AppDelegate.h */,
 				67F7C5A61BB5056500F5BE15 /* AppDelegate.m */,
-				67F7C5A81BB5056500F5BE15 /* ViewController.h */,
-				67F7C5A91BB5056500F5BE15 /* ViewController.m */,
+				67F7C5A81BB5056500F5BE15 /* Home.h */,
+				67F7C5A91BB5056500F5BE15 /* Home.m */,
 				67F7C5AB1BB5056500F5BE15 /* Main.storyboard */,
 				67F7C5B11BB5056500F5BE15 /* Assets.xcassets */,
-				67F7C5B31BB5056500F5BE15 /* LaunchScreen.storyboard */,
 				67F7C5B61BB5056500F5BE15 /* Info.plist */,
 				67F7C5AE1BB5056500F5BE15 /* SatoPrinter.xcdatamodeld */,
 				67F7C5A21BB5056500F5BE15 /* Supporting Files */,
@@ -194,7 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F7C5B51BB5056500F5BE15 /* LaunchScreen.storyboard in Resources */,
 				67F7C5B21BB5056500F5BE15 /* Assets.xcassets in Resources */,
 				67F7C5AD1BB5056500F5BE15 /* Main.storyboard in Resources */,
 			);
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F7C5AA1BB5056500F5BE15 /* ViewController.m in Sources */,
+				67F7C5AA1BB5056500F5BE15 /* Home.m in Sources */,
 				67F7C5A71BB5056500F5BE15 /* AppDelegate.m in Sources */,
 				67F7C5A41BB5056500F5BE15 /* main.m in Sources */,
 				67F7C5B01BB5056500F5BE15 /* SatoPrinter.xcdatamodeld in Sources */,
@@ -246,14 +246,6 @@
 				67F7C5AC1BB5056500F5BE15 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		67F7C5B31BB5056500F5BE15 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67F7C5B41BB5056500F5BE15 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,7 +337,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SatoPrinter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = POSCO.SatoPrinter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,7 +350,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SatoPrinter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = POSCO.SatoPrinter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
